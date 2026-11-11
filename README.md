@@ -19,6 +19,7 @@ Sole author · NLPVR 2026 (accepted)
 - Two-stage pipelines report that scoring paragraphs is worse than encoding a whole document as one vector. I reran the comparison so that both systems share one encoder configuration and rank the full corpus.
 - Under that control the penalty disappears: no difference on any of the five corpora survives Holm correction. With the two-stage vectorizer, paragraph-level retrieval is significantly better on NFCorpus and SciFact.
 - Along the way I found and repaired three evaluation defects, including a query-numbering mismatch in Cranfield that had offset 152 queries from their relevance judgments.
+- Code and result files: [kevinhan923/NLP_IR_Representation_Project](https://github.com/kevinhan923/NLP_IR_Representation_Project)
 
 **Lifecycle-aware incentive pricing for time-sensitive mobile crowdsensing**
 First author, with Prof. Jun Tao (Southeast University) · manuscript in preparation
